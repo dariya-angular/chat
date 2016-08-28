@@ -1,0 +1,36 @@
+<div layout="row" layout-align="center center" class="height-100">
+  <div flex="50" show-gt-xs hide>
+    <md-card flex layout-align="center top">
+      <md-card-header layout-padding>
+          <md-card-avatar>
+            <md-icon class="material-icons">menu</md-icon>
+          </md-card-avatar>
+          <md-card-header-text>
+            <span class="md-title">{{user.name}}</span>
+            <span class="md-subhead">{{user.email}}</span>
+          </md-card-header-text>
+      </md-card-header>
+      <md-card-title layout-padding>
+        <md-card-title-text layout-padding>
+          <span class="md-headline">Login</span>
+        </md-card-title-text>
+      </md-card-title>
+      <md-card-content>
+        <div layout="row" layout-align="space-around">
+            <md-input-container>
+              <label>Name</label>
+              <input type="text" name="">
+            </md-input-container>
+            <md-input-container>
+              <label>Email</label>
+              <input type="email" name="">
+            </md-input-container>
+        </div>
+      </md-card-content>
+      <md-card-actions layout="row" layout-align="space-around">
+        <md-button class="md-raised md-primary">Signup</md-button>
+        <md-button class="md-raised md-primary">Login</md-button>
+      </md-card-actions>
+    </md-card>
+  </div>
+</div>
