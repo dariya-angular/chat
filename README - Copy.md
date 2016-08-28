@@ -1,2 +1,0 @@
-# chat
-Node-angular-mongo
