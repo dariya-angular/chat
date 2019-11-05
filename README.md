@@ -1,2 +1,2 @@
 # chat
-Node-angular-mongo
+A chat application using MEAN.
